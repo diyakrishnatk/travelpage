@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trip</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span class="text-warning">Tour</span>er</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#packages">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./images/3.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5>Let's Discover The World Together</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi nisi et, quos alias saepe aspernatur ad
+            assumenda voluptatem expedita sunt aliquam! Eum maiores dicta blanditiis assumenda error consequuntur a
+            quasi!</p>
+          <p><a href="#" class="btn btn-warning mt-3">Explore More</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/5.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5>Let Us Take You To Your <br>Dream Destination</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quia fugiat corrupti excepturi a laboriosam
+            optio nam maxime at. Ad fugiat exercitationem facere similique dignissimos adipisci id qui saepe neque.</p>
+          <p><a href="#" class="btn btn-warning mt-3">Explore More</a></p>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/foggy-forest-mountains_763713-1880 (1).avif" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5>Let's Explore The World</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum fuga eaque natus autem animi, iste sapiente
+            doloremque beatae veniam repellendus, voluptas repellat in ad aliquid unde, labore expedita mollitia
+            voluptatum?</p>
+          <p><a href="#" class="btn btn-warning mt-3">Explore More</a></p>
+
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- about section -->
+  <section id="about" class="about section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-12">
+          <div class="about-img">
+            <img src="./images/7.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+          <div class="about-text">
+            <h2><b>About Our Travel Agency</b></h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum eaque voluptate nemo
+              adipisci obcaecati illo odit quas aut. Eum illo modi vero placeat harum esse iure quis qui obcaecati.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit accusantium quidem at quam iure unde animi
+              minima in officiis harum sequi pariatur veniam aut, commodi suscipit eius cupiditate incidunt aliquid!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corporis deserunt quia modi
+              aspernatur quis aut alias porro velit dolorem hic similique repudiandae quam, nemo facere error animi,
+              explicabo provident!</p>
+            <a href="#" class="btn btn-warning">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- services section -->
+  <section id="services" class="services section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2><b>Travel & Tours Services</b></h2>
+            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Ullam impedit nihil saepe doloremque </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <img src="./images/glob.png" alt="">
+              <h3 class="card-title">Different Countries</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laborum voluptatem
+                aspernatur enim quidem. Esse eaque accusantium accusamus ipsa ullam, debitis aspernatur consequatur et
+                illum rerum reprehenderit. Unde, ullam quo?</p>
+              <button class="btn btn-warning text-dark">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <img src="./images/gggg.png" alt="">
+              <h3 class="card-title">Travel Guide</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laborum voluptatem
+                aspernatur enim quidem. Esse eaque accusantium accusamus ipsa ullam, debitis aspernatur consequatur et
+                illum rerum reprehenderit. Unde, ullam quo?</p>
+              <button class="btn btn-warning text-dark">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <img src="./images/hotel.jpg" alt="">
+              <h3 class="card-title">Hotel Booking</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laborum voluptatem
+                aspernatur enim quidem. Esse eaque accusantium accusamus ipsa ullam, debitis aspernatur consequatur et
+                illum rerum reprehenderit. Unde, ullam quo?</p>
+              <button class="btn btn-warning text-dark">Read More</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- packages -->
+  <section id="packages" class="package section-padding">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2><b>Our Packages</b></h2>
+            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Ullam impedit nihil saepe doloremque </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card  text-center bg-white pb-2">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="images/Iceland-mount-.avif" alt="" class="img-fluid">
+              </div>
+              <h3 class="card-title">Iceland</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque a, vero pariatur
+                consequuntur perspiciatis totam. Est error repellendus earum! Ex, voluptate nemo minus qui ullam eaque
+                quisquam quae porro?</p>
+              <button class="btn bg-warning text-dark">Learn More</button>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card  text-center bg-white pb-2">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="images/Snow.png" alt="" class="img-fluid">
+              </div>
+              <h3 class="card-title">kashmir</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque a, vero pariatur
+                consequuntur perspiciatis totam. Est error repellendus earum! Ex, voluptate nemo minus qui ullam eaque
+                quisquam quae porro?</p>
+              <button class="btn bg-warning text-dark">Learn More</button>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card  text-center bg-white pb-2">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="images/paris.png" alt="" class="img-fluid">
+              </div>
+              <h3 class="card-title">Paris</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque a, vero pariatur
+                consequuntur perspiciatis totam. Est error repellendus earum! Ex, voluptate nemo minus qui ullam eaque
+                quisquam quae porro?</p>
+              <button class="btn bg-warning text-dark">Learn More</button>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+    </div>
+  </section>
+
+  <!-- teams -->
+  <section id="team" class="team section-padding">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2><b>Our Teams</b></h2>
+            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Ullam impedit nihil saepe doloremque </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="./images/gg.png" alt="" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2">Jack Wilson</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, consequatur! A
+                numquam nam eius veritatis inventore quasi ducimus, sapiente quod, soluta optio non aspernatur mollitia
+                vel placeat corrupti quia debitis.</p>
+              <p class="socials">
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram text-dark fa-2x"></i></a>
+                <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp text-dark fa-2x"></i></a>
+                <a href="https://www.facebook.com/login/"><i class="fa-brands text-dark fa-facebook fa-2x"></i></a>
+                <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter text-dark fa-2x"></i></a>
+
+
+
+
+
+
+
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="./images/p.png" alt="" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2">Jack Wilson</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, consequatur! A
+                numquam nam eius veritatis inventore quasi ducimus, sapiente quod, soluta optio non aspernatur mollitia
+                vel placeat corrupti quia debitis.</p>
+              <p class="socials">
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram text-dark fa-2x"></i></a>
+                <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp text-dark fa-2x"></i></a>
+                <a href="https://www.facebook.com/login/"><i class="fa-brands text-dark fa-facebook fa-2x"></i></a>
+                <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter text-dark fa-2x"></i></a>
+
+
+
+
+
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="./images/ll.png" alt="" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2">Jack Wilson</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, consequatur! A
+                numquam nam eius veritatis inventore quasi ducimus, sapiente quod, soluta optio non aspernatur mollitia
+                vel placeat corrupti quia debitis.</p>
+              <p class="socials">
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram text-dark fa-2x"></i></a>
+                <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp text-dark fa-2x"></i></a>
+                <a href="https://www.facebook.com/login/"><i class="fa-brands text-dark fa-facebook fa-2x"></i></a>
+                <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter text-dark fa-2x"></i></a>
+
+
+
+
+
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="./images/pe.png" alt="" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2">Jack Wilson</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, consequatur! A
+                numquam nam eius veritatis inventore quasi ducimus, sapiente quod, soluta optio non aspernatur mollitia
+                vel placeat corrupti quia debitis.</p>
+              <p class="socials">
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram text-dark fa-2x"></i></a>
+                <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp text-dark fa-2x"></i></a>
+                <a href="https://www.facebook.com/login/"><i class="fa-brands text-dark fa-facebook fa-2x"></i></a>
+                <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter text-dark fa-2x"></i></a>
+
+
+
+
+
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- contact -->
+  <section id="contact" class="contact section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2><b>Contact Us</b></h2>
+            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Ullam impedit nihil saepe doloremque </p>
+          </div>
+        </div>
+      </div>
+      <div class="row m-0">
+        <div class="col-md-12 p-0 pt-4 pb-4">
+          <form action="#" class="bg-light p-4.m-auto"></form>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mb-3">
+                <input type="text" class="form-control" required placeholder="Your Full Name ">
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div class="mb-3">
+                <input type="email" class="form-control" required placeholder="Your Email Here ">
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div class="mb-3">
+                <textarea rows="3" required class="form-control" placeholder="Your Query Here"></textarea>
+              </div>
+            </div>
+
+            <div class="button btn btn-warning btn-lg btn-block mt-3">Send Now</div>
+
+          </div>
+          </form>
+        </div>
+      </div>
+
+
+
+    </div>
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
